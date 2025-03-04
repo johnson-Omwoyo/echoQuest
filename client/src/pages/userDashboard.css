@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+.user-det {
+  min-height: 480px;
+  max-height: 560px;
+}
+.rate-calendar {
+  min-height: 100%;
+}
+.rate-calendar .calendar {
+  min-height: 55%;
+}
+.rate-calendar .rate {
+  min-height: 35%;
+}
+.upcomings {
+  height: 420px;
+  background: #dfe1e2;
+  overflow-y: scroll;
+}
+
+.upcomings::-webkit-scrollbar {
+  display: none;
+}
+.manage-head span {
+  margin-bottom: 0;
+}
+.manage-head p {
+  color: #595858;
+}
+.name-title {
+  font-weight: 700;
+}
+.name {
+  color: #595858;
+}
+.circle {
+  border: 12px solid rgb(87, 68, 47);
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  overflow: hidden; /* Ensure content does not overflow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.percentage {
+  color: rgb(87, 68, 47);
+}
+.inner-cont1 {
+  background: #bbc8fd;
+}
+.inner-cont2 {
+  background: #b0c9d2;
+  min-height: max-content;
+}
+.prev-cont {
+  max-height: 560px;
+  overflow-y: scroll;
+}
+.prev-cont::-webkit-scrollbar {
+  display: none;
+}

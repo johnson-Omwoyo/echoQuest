@@ -1,0 +1,33 @@
+.login-cont {
+  max-width: 480px;
+  background: #000;
+  min-height: 520px;
+}
+body {
+  background-color: #212020;
+  margin: 0;
+  padding-top: 8%;
+}
+.body-cont {
+  min-height: max-content;
+  background-color: rgb(44, 46, 44);
+  color: whitesmoke;
+}
+.logo {
+  background-color: rgb(60, 63, 60);
+  color: rgb(214, 213, 213);
+}
+.logo-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.body-cont input {
+  background: rgb(214, 213, 213);
+}
+.sign-up-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sign-up-link:hover {
+  opacity: 0.8;
+}
