@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to EchoQuest</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <div
+      style="
+        background-color: #fff;
+        padding: 20px;
+        margin: 50px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h1 style="color: #1e73be">Hello, {{name}}!</h1>
+
+      <p>
+        Welcome to <strong>EchoQuest</strong>! We're excited to have you on
+        board.
+      </p>
+
+      <p>To verify your email address, please click the button below:</p>
+
+      <a
+        href="https://v3bqh38b-8080.uks1.devtunnels.ms/sse?email={{email}}"
+        style="
+          background-color: #1e73be;
+          color: white;
+          padding: 12px 20px;
+          text-decoration: none;
+          border-radius: 4px;
+          display: inline-block;
+          margin-top: 20px;
+        "
+        >Verify Email</a
+      >
+
+      <p>
+        If you have any questions or need assistance, feel free to reach out to
+        us. We are here to help!
+      </p>
+
+      <p>Best regards,<br />The EchoQuest Team</p>
+    </div>
+
+    <div
+      style="font-size: 12px; color: #aaa; text-align: center; margin-top: 40px"
+    >
+      <p>If you didn't sign up for EchoQuest, please ignore this email.</p>
+      <p>&copy; {{year}} EchoQuest. All rights reserved.</p>
+    </div>
+  </body>
+</html>
